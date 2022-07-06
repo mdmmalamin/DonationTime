@@ -8,7 +8,7 @@ body{
 }
 /* Header Section Start */
 .header-section{
-    background-image: linear-gradient(#ffffff33, #000000cc), url("images/donation.jpg");
+    background-image: linear-gradient(#ffffff00, #121212), url("images/donation.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -50,21 +50,40 @@ body{
     font-size: 48px;
     margin-bottom: 15px;
 }
-.donate-btn{
-    
-}
+
 .btn{
     color: #707070;
     font-size: 2rem;
     font-weight: 600;
     border: none;
+    border-radius: 5px;
     width: 8rem;
     height: 7rem;
     margin: 7px;
 }
 .selected{
-    background-color: #FF5959;
+    background-color: #ff59593f;
     border: 2px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+}
+
+#input-amount{
+    text-align: center;
+    font-size: 16px;
+    width: 50%;
+    border:none;
+    border-bottom: 1px solid #70707060;
+    padding: 10px;
+    margin: 40px 0 20px;
+}
+.btn-submit{
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF5959;
+    padding: 15px 20px;
 }
 /* Donate Section End */
 
