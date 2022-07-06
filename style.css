@@ -1,13 +1,10 @@
 body{
-    font-family: 'Poppins', sans-serif;
     font-family: 'Prompt', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
     margin: 0;
 }
 .para-color{
     color: #707070;
-    font-weight: 500;
+
 }
 /* Header Section Start */
 .header-section{
@@ -19,7 +16,6 @@ body{
     color: white;
 }
 .header-section h1{
-    font-family: 'Prompt', sans-serif;
     font-size: 58px;
     text-align: center;
 }
@@ -33,7 +29,7 @@ body{
 }
 .header-section a{
     text-decoration: none;
-    font-weight: 800;
+    font-size: 1.5rem;
     color: white;
     border-radius: 5px;
     background-color: #FF5959;
@@ -53,6 +49,22 @@ body{
 #donate-header h1{
     font-size: 48px;
     margin-bottom: 15px;
+}
+.donate-btn{
+    
+}
+.btn{
+    color: #707070;
+    font-size: 2rem;
+    font-weight: 600;
+    border: none;
+    width: 8rem;
+    height: 7rem;
+    margin: 7px;
+}
+.selected{
+    background-color: #FF5959;
+    border: 2px solid #FF5959;
 }
 /* Donate Section End */
 
@@ -80,13 +92,19 @@ body{
     border-radius: 5px;
 }
 #food{
-    background-color: #DEEDEE;
+    background-color: #deedee77;
 }
 #family{
-    background-color: #FFE0E0;
+    background-color: #FFE0E077;
     margin: 0 25px;
 }
 #edu{
-    background-color: #ffecb8;
+    background-color: #ffecb877;
 }
 /* Donate plan Section End */
+.subs-section{
+    text-align: center;
+}
+/* Footer Section Start */
+
+/* Footer Section End */
