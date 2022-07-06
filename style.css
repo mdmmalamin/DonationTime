@@ -5,8 +5,88 @@ body{
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
 }
-.header-section{
-    background-image: url(images/donation.jpg);
-    width: 100%;
-    height: 100%;
+.para-color{
+    color: #707070;
+    font-weight: 500;
 }
+/* Header Section Start */
+.header-section{
+    background-image: linear-gradient(#ffffff33, #000000cc), url("images/donation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 200px 300px;
+    color: white;
+}
+.header-section h1{
+    font-family: 'Prompt', sans-serif;
+    font-size: 58px;
+    text-align: center;
+}
+.header-section p{
+    text-align: center;
+    padding: 0 100px;
+}
+.header-section div{
+    text-align: center;
+    padding: 50px;
+}
+.header-section a{
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+    border-radius: 5px;
+    background-color: #FF5959;
+    padding: 15px 20px;
+}
+/* Header Section End */
+
+/* Donate Section Start */
+.donate-section{
+    text-align: center;
+    margin: 100px auto;
+}
+#donate-header{
+    text-align: center;
+    margin: 0 25%;
+}
+#donate-header h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+/* Donate Section End */
+
+/* Donate plan Section Start */
+.donate-plan-section{
+    margin: 100px 100px;
+}
+#donate-plan-header{
+    text-align: center;
+    margin: 0 25%;
+}
+#donate-plan-header h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+.flexible{
+    display: flex;
+    margin-top: 50px;
+}
+.flexible img{
+    width: 20%;
+}
+.one-third{
+    padding: 40px 20px;
+    border-radius: 5px;
+}
+#food{
+    background-color: #DEEDEE;
+}
+#family{
+    background-color: #FFE0E0;
+    margin: 0 25px;
+}
+#edu{
+    background-color: #ffecb8;
+}
+/* Donate plan Section End */
