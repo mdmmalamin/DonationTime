@@ -107,6 +107,7 @@ body{
     width: 20%;
 }
 .one-third{
+    width: 30%;
     padding: 40px 20px;
     border-radius: 5px;
 }
@@ -121,9 +122,60 @@ body{
     background-color: #ffecb877;
 }
 /* Donate plan Section End */
+
+/* Get Me Updates */
 .subs-section{
     text-align: center;
+    margin: 0 25%;
 }
-/* Footer Section Start */
+.subs-section  h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+#form-bg{
+    
+    background-color: #ffecb877;
+    padding: 50px 0;
+}
+#input-email{
+    text-align: left;
+    background-color: #aa9f9f75;
+    font-size: 16px;
+    font-weight: 600;
+    width: 50%;
+    border:none;
+    border: 1px solid #70707060;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 30px 0;
+}
+#btn-subs{
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF5959;
+    padding: 10px 20px;
+    margin: 0;
+}
 
+/* Get Me Updates */
+
+/* Footer Section Start */
+.footer-section{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    bottom: 30px;
+}
+.footer-section h1{
+    margin: 0;
+}
+
+.footer-section img{
+    width: 100px;
+    height: auto;
+}
 /* Footer Section End */
