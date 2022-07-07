@@ -123,6 +123,49 @@ body{
 }
 /* Donate plan Section End */
 
+/* Become a Volunteer Start */
+.volunteer{
+    margin: 100px 100px;
+}
+.volunteer-header{
+    text-align: center;
+    margin: 0 25%;
+}
+.volunteer-header h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+#join-form{
+    text-align: center;
+}
+#label-join{
+    color: #0590FF;
+    font-weight: 800;
+}
+.input-sizing{
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+    font-size: 18px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+}
+.msg{
+    height: 100px;
+}
+.btn-join{
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    background-color: #0590FF;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+/* Become a Volunteer End */
+
 /* Get Me Updates */
 .subs-section{
     text-align: center;
