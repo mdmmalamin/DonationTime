@@ -8,7 +8,7 @@ body{
 }
 /* Header Section Start */
 .header-section{
-    background-image: linear-gradient(#ffffff00, #121212), url("images/donation.jpg");
+    background-image: linear-gradient(#ffffff00, #121212), url("images/svg/sylhet-flood.svg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
